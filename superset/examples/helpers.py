@@ -23,7 +23,8 @@ from superset import app, db
 from superset.connectors.sqla.models import SqlaTable
 from superset.models.slice import Slice
 
-BASE_URL = "https://github.com/apache-superset/examples-data/blob/master/"
+# BASE_URL = "https://github.com/apache-superset/examples-data/blob/master/"
+BASE_URL = "https://data-one-bi.oss-cn-hangzhou.aliyuncs.com/assets/examples-data/"
 
 misc_dash_slices: Set[str] = set()  # slices assembled in a 'Misc Chart' dashboard
 
